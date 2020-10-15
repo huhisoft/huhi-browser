@@ -1,0 +1,76 @@
+{
+  "name": "huhi",
+  "version": "0.15.72",
+  "description": "Huhi browser for macOS, Windows, Linux, and eventually Android",
+  "scripts": {
+    "audit_deps": "npm --prefix src/huhi run audit_deps --",
+    "cibuild": "npm --prefix src/huhi run cibuild --",
+    "init": "node ./scripts/init.js",
+    "delete_string_translations": "npm --prefix src/huhi run delete_string_translations --",
+    "create_dist": "npm --prefix src/huhi run create_dist --",
+    "sync": "npm --prefix src/huhi run sync --",
+    "gclient": "npm --prefix src/huhi run gclient --",
+    "build": "npm --prefix src/huhi run build --",
+    "gn_check": "npm --prefix src/huhi run gn_check --",
+    "versions": "npm --prefix src/huhi run versions --",
+    "upload": "npm --prefix src/huhi run upload --",
+    "update_patches": "npm --prefix src/huhi run update_patches --",
+    "apply_patches": "npm --prefix src/huhi run apply_patches --",
+    "start": "npm --prefix src/huhi run start --",
+    "network-audit": "npm --prefix src/huhi run network-audit --",
+    "push_l10n": "npm --prefix src/huhi run push_l10n --",
+    "pull_l10n": "npm --prefix src/huhi run pull_l10n --",
+    "chromium_rebase_l10n": "npm --prefix src/huhi run chromium_rebase_l10n --",
+    "lint": "npm --prefix src/huhi run lint --",
+    "test": "npm --prefix src/huhi run test --",
+    "test:scripts": "jest lib scripts --passWithNoTests",
+    "test-security": "npm run audit_deps && node ./scripts/commands.js start --enable_huhi_update --network_log --user_data_dir_name=huhi-network-test"
+  },
+  "config": {
+    "projects": {
+      "chrome": {
+        "dir": "src",
+        "tag": "86.0.4240.75",
+        "repository": {
+          "url": "https://github.com/chromium/chromium"
+        }
+      },
+      "huhi-core": {
+        "dir": "src/huhi",
+        "repository": {
+          "url": "https://github.com/huhisoft/huhi-core.git"
+        },
+        "tag": "v0.15.72"
+      }
+    },
+    "widevine": {
+      "version": "4.10.1582.2"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huhisoft/huhi-browser.git"
+  },
+  "author": {
+    "name": "Huhi Software <huhibrowser@gmail.com>"
+  },
+  "contributors": [
+    {
+      "name": "Huy Nguyen",
+      "email": "huynq.cntt@gmail.com"
+    }
+  ],
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/huhisoft/huhi-browser/issues"
+  },
+  "homepage": "https://github.com/huhisoft/huhi-browser#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "log-update": "^3.2.0"
+  },
+  "devDependencies": {
+    "ip": "^1.1.5",
+    "jest": "^25.1.0"
+  }
+}

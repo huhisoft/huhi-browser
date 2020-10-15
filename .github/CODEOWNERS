@@ -1,0 +1,7 @@
+# Network auditor
+lib/whitelistedUrlPatterns.js @huhi/sec-team
+lib/whitelistedUrlPrefixes.js @huhi/sec-team
+
+lib/util.js @bridiver
+lib/build.js @bridiver
+

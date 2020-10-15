@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title id="huhiname">Logo_huhi_huhisoft.com</title>
+  <g class="huhi" fill='none'>
+    <circle cx="32" cy="32" r="32" fill="#FF3A3A" />
+    <path fill="#FFFFFF" d="m 226.87093,257.39441 c 0,-140.58 181.81,41.23 41.23,41.23 -141.046,0 -256.183729696,-181.81 -256.183729696,-41.23 0,141.046 115.20061990,256.23 256.183729696,256.23 140.58,0 -41.23,-115.184 -41.23,-256.23 v 0" transform="matrix(-0.14536761,0,0,-0.1453676,57.225651,83.164349)" style="stroke-width:1.9900620" />
+    <path opacity="0.183729696" fill="#FFFFFF" d="M9.82,9A32,32,0,1,0,55,54.18Z" style="stroke-width:0.6201990" />
+  </g>
+</svg>
