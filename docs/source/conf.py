@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
+author = 'Huhi Software'
 project = 'Huhi Browser'
 copyright = '2020, Huhi Software'
-author = 'Huhi Software'
 
 # The short X.Y version
 version = ''
@@ -81,7 +81,7 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-'description': 'Next generation Huhi browser for macOS, Windows, Linux. <a href="https://www.huhisoft.com">huhisoft.com</a>',
+'description': '<a href="https://www.huhisoft.com">Huhisoft.com</a>',
 'logo': 'huhi-release.svg',
 'head_font_family': 'Muli, Proxima Nova, Avenir',
 'caption_font_size': '14px',
@@ -115,7 +115,7 @@ html_favicon = '_static/product_logo_32.png'
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'HuhiBrowserdoc'
 
-html_css_files = '_static/custom.css'
+html_css_files = 'custom.css'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -168,5 +168,6 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
+
 def setup(app):
-    app.add_stylesheet('custom.css')
+    app.add_css_file('custom.css')
