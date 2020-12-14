@@ -1,6 +1,6 @@
 {
   "name": "huhi",
-  "version": "0.15.72",
+  "version": "0.18.70",
   "description": "Huhi browser for macOS, Windows, Linux, and eventually Android",
   "scripts": {
     "audit_deps": "npm --prefix src/huhi run audit_deps --",
@@ -24,13 +24,13 @@
     "lint": "npm --prefix src/huhi run lint --",
     "test": "npm --prefix src/huhi run test --",
     "test:scripts": "jest lib scripts --passWithNoTests",
-    "test-security": "npm run audit_deps && node ./scripts/commands.js start --enable_huhi_update --network_log --user_data_dir_name=huhi-network-test"
+    "test-security": "npm --prefix src/huhi run test-security --"
   },
   "config": {
     "projects": {
       "chrome": {
         "dir": "src",
-        "tag": "86.0.4240.75",
+        "tag": "87.0.4280.101",
         "repository": {
           "url": "https://github.com/chromium/chromium"
         }
@@ -40,7 +40,7 @@
         "repository": {
           "url": "https://github.com/huhisoft/huhi-core.git"
         },
-        "tag": "v0.15.72"
+        "tag": "v0.18.70"
       }
     },
     "widevine": {
