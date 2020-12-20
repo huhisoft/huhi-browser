@@ -1,6 +1,6 @@
 {
   "name": "huhi",
-  "version": "0.18.70",
+  "version": "0.18.75",
   "description": "Huhi browser for macOS, Windows, Linux, and eventually Android",
   "scripts": {
     "audit_deps": "npm --prefix src/huhi run audit_deps --",
@@ -40,7 +40,7 @@
         "repository": {
           "url": "https://github.com/huhisoft/huhi-core.git"
         },
-        "tag": "v0.18.70"
+        "tag": "v0.18.75"
       }
     },
     "widevine": {
