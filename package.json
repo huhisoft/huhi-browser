@@ -1,7 +1,7 @@
 {
   "name": "huhi",
-  "version": "0.18.75",
-  "description": "Huhi browser for macOS, Windows, Linux, and eventually Android",
+  "version": "1.18.77",
+  "description": "Next generation Huhi browser for macOS, Windows, Linux, and eventually Android",
   "scripts": {
     "audit_deps": "npm --prefix src/huhi run audit_deps --",
     "cibuild": "npm --prefix src/huhi run cibuild --",
@@ -40,7 +40,7 @@
         "repository": {
           "url": "https://github.com/huhisoft/huhi-core.git"
         },
-        "tag": "v0.18.75"
+        "tag": "v1.18.77"
       }
     },
     "widevine": {
@@ -52,7 +52,7 @@
     "url": "git+https://github.com/huhisoft/huhi-browser.git"
   },
   "author": {
-    "name": "Huhi Software <huhibrowser@gmail.com>"
+    "name": "Huhi Software <support@hnq.vn>"
   },
   "contributors": [
     {

@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository holds the build tools needed to build the huhi desktop browser for macOS, Windows, and Linux.  In particular, it fetches and syncs code from the projects we define in `package.json` and `src/huhi/DEPS`:
+This repository holds the build tools needed to build the Huhi desktop browser for macOS, Windows, and Linux.  In particular, it fetches and syncs code from the projects we define in `package.json` and `src/huhi/DEPS`:
 
   - [Chromium](https://chromium.googlesource.com/chromium/src.git)
     - Fetches code via `depot_tools`.
@@ -11,19 +11,19 @@ This repository holds the build tools needed to build the huhi desktop browser f
   - [huhi-core](https://github.com/huhisoft/huhi-core)
     - Mounted at `src/huhi`.
     - Maintains patches for 3rd party Chromium code.
-  - [adblock-rust](https://github.com/huhisoft/adblock-rust)
+  - [adblock-rust](https://github.com/huhisoftware/adblock-rust)
     - Implements Huhi's ad-block engine.
-    - Linked through [huhi/adblock-rust-ffi](https://github.com/huhisoft/adblock-rust-ffi)
+    - Linked through [huhisoftware/adblock-rust-ffi](https://github.com/huhisoftware/adblock-rust-ffi)
 
 ## Downloads
 
-You can [visit our website](https://huhisoft.com/download) to get the latest stable release.
+You can [visit our website](https://hnq.vn/download) to get the latest stable release.
 
 ## Other repositories
 
 For other versions of our browser, please see:
 
-* iOS - [huhi/huhi-ios](https://github.com/huhisoft/huhi-ios)
+* iOS - [huhisoft/huhi-ios](https://github.com/huhisoft/huhi-ios)
 
 ## Contributing
 
@@ -31,11 +31,12 @@ Please see the [contributing guidelines](./CONTRIBUTING.md)
 
 ## Community
 
-[Join the Q&A community](https://community.huhisoft.com/) if you'd like to get more involved with Huhi. You can [ask for help](https://community.huhisoft.com/c/support-and-troubleshooting),
-[discuss features you'd like to see](https://community.huhisoft.com/c/huhi-feature-requests), and a lot more. We'd love to have your help so that we can continue improving Huhi.
+[Join the Q&A community](https://community.hnq.vn) if you'd like to get more involved with Huhi. You can [ask for help](https://community.hnq.vnc/support-and-troubleshooting),
+[discuss features you'd like to see](https://community.hnq.vnc/huhi-feature-requests), and a lot more. We'd love to have your help so that we can continue improving Huhi.
 
+Help us translate Huhi to your language by submitting translations at https://www.transifex.com/huhi/huhi/
 
-Follow [@HuhiBrowser](https://twitter.com/HuhiBrowser) on Twitter for important news and announcements.
+Follow [#huhibrowser](https://twitter.com/huhibrowser) on Twitter for important news and announcements.
 
 ## Install prerequisites
 

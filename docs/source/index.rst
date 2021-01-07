@@ -1,8 +1,8 @@
-.. Copyright (c) 2019 Huhi Software
+.. Copyright (c) 2020 Huhi Software
 
 .. _rs_welcome:
 
 Huhi browser documentation
----------------------
+---------------------------
 
-Huhi browser community `community.huhisoft.com <https://community.huhisoft.com/>`_
+This page has now moved to `hnq.vn/linux <https://hnq.vn/linux>`_

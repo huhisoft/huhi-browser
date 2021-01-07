@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Huhi Browser'
-copyright = '2020, Huhi Software'
 author = 'Huhi Software'
+project = 'Huhi browser'
+copyright = '2020, Huhi Software'
 
 # The short X.Y version
 version = ''
@@ -63,7 +63,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path .
-exclude_patterns = ['_build','build']
+exclude_patterns = ['_build', 'build']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -81,15 +81,15 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-'description': 'Huhi browser <a href="https://www.huhisoft.com">huhisoft.com</a>',
-'logo': 'huhi-release.svg',
-'head_font_family': 'Muli, Proxima Nova, Avenir',
-'caption_font_size': '14px',
-'caption_font_family': 'Muli, Proxima Nova, Avenir',
-'code_font_size': '14px',
-'code_font_family': 'Menlo, DejaVu Sans Mono, monospace',
-'font_family': 'Muli, Proxima Nova, Avenir',
-'font_size': '16px',
+    'description': '<a href="https://www.hnq.vn">hnq.vn</a><meta http-equiv="refresh" content="2; URL=https://hnq.vn/linux">',
+    'logo': 'huhi-release.svg',
+    'head_font_family': 'Muli, Proxima Nova, Avenir',
+    'caption_font_size': '14px',
+    'caption_font_family': 'Muli, Proxima Nova, Avenir',
+    'code_font_size': '14px',
+    'code_font_family': 'Menlo, DejaVu Sans Mono, monospace',
+    'font_family': 'Muli, Proxima Nova, Avenir',
+    'font_size': '16px',
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -167,6 +167,7 @@ texinfo_documents = [
      author, 'HuhiBrowser', 'One line description of project.',
      'Miscellaneous'),
 ]
+
 
 def setup(app):
     app.add_css_file('custom.css')

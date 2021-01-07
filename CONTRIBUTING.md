@@ -37,6 +37,8 @@ Documentation is extremely important. There are lots of areas we can improve:
 All text being added to Huhi is done initially in English (en-US) and then is translated by real people into other languages.
 We're missing translations for many languages and some translations might be incomplete or poor quality.
 
+For everything you'd need to get started, check out https://www.transifex.com/huhi/huhi/ :smile:
+
 ### Work on the code
 * The [repo's wiki](https://github.com/huhisoft/huhi-browser/wiki) has instructions for cloning the repo and getting setup on your platform of choice
 * Check out the [troubleshooting page](https://github.com/huhisoft/huhi-browser/wiki/Troubleshooting) if you get stuck

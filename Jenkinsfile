@@ -23,7 +23,7 @@ pipeline {
             agent { label 'master' }
             steps {
                 script {
-                    GITHUB_API = 'https://api.github.com/repos/huhisoft'
+                    GITHUB_API = 'https://api.github.com/repos/huhi'
                     REPO = JOB_NAME.substring(0, JOB_NAME.indexOf('-build-pr'))
                     OTHER_REPO = REPO.equals('huhi-browser') ? 'huhi-core' : 'huhi-browser'
                     PLATFORM = JOB_NAME.substring(JOB_NAME.indexOf('-build-pr') + 10, JOB_NAME.indexOf('/PR-'))
@@ -93,7 +93,7 @@ pipeline {
                                         git {
                                             remote {
                                                 credentials('huhi-builds-github-token-for-pr-builder')
-                                                github('huhisoft/devops', 'https')
+                                                github('huhi/devops', 'https')
                                             }
                                             branch('master')
                                         }
